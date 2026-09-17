@@ -185,7 +185,7 @@ def rrf_hybrid_search(query):
     add_results(fts_results)
     add_results(vector_results)
 
-    final_results = sorted(
+    final_results = sorted(dnaisnds
         rrf_scores.values(),
         key=lambda x: x["score"],
         reverse=True
